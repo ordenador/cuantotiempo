@@ -1,3 +1,8 @@
 from django.db import models
 
-# Create your models here.
+class tiempo(models.Model):
+    detalle = models.CharField(max_length=140)
+    tiempo_a_medir = models.DateTimeField()
+
+    def __str__(self):
+        return self.detalle
