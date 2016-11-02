@@ -61,5 +61,45 @@ target/
 #Ipython Notebook
 .ipynb_checkpoints
 
+*.pyc
+/db.sqlite3
+.DS_Store
+.env
+*/settings/local.py
+/staticfiles/*
+/mediafiles/*
+__pycache__/
+
+# coverage result
+.coverage
+
+# pycharm
 .idea
-db.sqlite3
+
+# data
+*.dump
+
+# npm
+node_modules/
+npm-debug.log
+
+#Folders
+.DS_Store
+
+# Webpack
+/assets/bundles/*
+/webpack-stats.json
+
+# Sass
+.sass-cache
+*.map
+
+# General
+/venv/
+/env/
+/output/
+/cache/
+
+# Spritesmith
+spritesmith-generated/
+spritesmith.scss

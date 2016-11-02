@@ -1,0 +1,16 @@
+# see http://www.kennethreitz.org/essays/a-better-pip-workflow
+
+# app
+Django
+django-webpack-loader
+django.js-vinta
+django-model-utils
+python-decouple
+psycopg2
+
+
+# heroku
+whitenoise
+
+# local
+django-naomi
